@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+font-family:sans-serif ;
+font-size: 14px;
+margin: 10%;
+/*background-color: #F8F8FF;*/
+background-image: url(https://media.istockphoto.com/id/1319844646/pt/vetorial/grey-cement-texture-of-floor-vector-3d-backdrop-of-gray-concrete-wall-room-surface-with.jpg?s=612x612&w=is&k=20&c=Zp3UgUlti3NEHfl8MFaJ_APi_QZvcFfhxbuM3pN523U=);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+p{
+
+font-size: 2em; /*tranformorma a linha em comentario */
+margin: 20px;
+text-align: justify;
+text-indent: 150px;
+font-family: "Poppins", sans-serif;
+
+}
+
+img{
+
+	width: 500px;
+	height: 400px;
+	/*border: solid 5px #000000 ; */
+	border-radius: 15% ;
+	/*box-shadow: 10px 10px 60px #800000 ;*/
+	/*filter:blur(5px) ;*/
+	/*filter: brightness(10%);*/
+	/*filter: contrast(100%);*/
+	filter: grayscale(100%);
+	/*filter: invert(50%);*/
+	/*filter: opacity(100%);*/
+	/*filter: saturate(50%);*/
+	/*filter: sepia(50%);*/
+	/*filter:hue-rotate(300deg) ;*/
+	/*filter: drop-shadow(1px 1px 60px blue);*/
+
+
+}
+
+img:hover{
+filter: grayscale(0);
+border-radius: 5% ;
+transform: scale(1.05);
+transform: rotate(5deg);
+
+
+}
+
+h1{
+
+	text-align: center;
+	font-family: "Quintessential", serif;
+	/*text-shadow: 20px 20px 50px blue, 10px 10px 50px red, 20px 20px 50px yellow;*/
+
+}
+
+h1:hover{
+color: blue
+
+
+}
+
+div{
+/*background-color: purple;*/
+
+
+}
+
+div img{
+filter: grayscale(0);
+
+
+}
+
+p b{
+color: darkred;
+
+}
+
+
+
+
+
+
+
+
+
+
